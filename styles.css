@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+  background-color: rgb(236, 242, 248);
+  margin: 1rem;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero .id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero picture {
+  flex-shrink: 0;
+}
+
+.card1 {
+  background-color: rgb(117, 65, 200);
+  position: relative;
+}
+
+.card2 {
+  background-color: rgb(72, 85, 106);
+}
+
+.card3 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(25, 33, 46);
+}
+
+.card4 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(25, 33, 46);
+}
+
+.card5 {
+  background-color: rgb(25, 33, 46);
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  border-radius: 0.5rem;
+  padding: 2.5rem;
+  margin: 2rem 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card3 .level,
+.card4 .level {
+  color: rgba(25, 33, 46, 0.5);
+}
+
+.card3 .description,
+.card4 .description {
+  color: rgba(25, 33, 46, 0.7);
+  line-height: 1.35rem;
+}
+
+.card1 .bold {
+  position: relative;
+  z-index: 2;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.bold {
+  font-weight: 500;
+  font-size: 1.45rem;
+}
+
+.level {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.45rem;
+  margin-bottom: 0;
+}
+
+.backgroundImg {
+  position: absolute; 
+  top: 0;
+  right: 120px;
+  width: 50px; 
+  height: auto; 
+  z-index: 1;
+}
+
+.photo img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+@media (min-width: 376px) {
+  .gridWrapper {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 8rem;
+  }
+
+  .backgroundImg {
+    right: 100px;
+  }
+
+  .card1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .card3 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+  }
+
+  .card4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .card5 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5 {
+    margin: 1rem;
+  }
+}
