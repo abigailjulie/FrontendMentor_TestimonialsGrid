@@ -16,6 +16,10 @@ body {
   padding: 0;
 }
 
+.visuallyHidden {
+  display: none;
+}
+
 .hero {
   display: flex;
 }
