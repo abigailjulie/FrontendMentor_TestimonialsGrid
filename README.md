@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/abigailjulie/FrontendMentor_TestimonialsGrid]
-- Live Site URL: [https://frontendmentortestimonialsgrid.vercel.app/]
+- Solution URL: [Github](https://github.com/abigailjulie/FrontendMentor_TestimonialsGrid)
+- Live Site URL: [Live Site](https://frontendmentortestimonialsgrid.vercel.app/)
 
 ## My process
 
@@ -42,5 +42,5 @@ Users should be able to:
 
 ## Author
 
-- [Personal Website](https://www.abigaildesigns.org)
-- [@abigailjulie](https://www.frontendmentor.io/profile/abigailjulie)
+- Website - [Abigail Figaro](https://www.abigaildesigns.org)
+- Frontend Mentor - [@abigailjulie](https://www.frontendmentor.io/profile/abigailjulie)
